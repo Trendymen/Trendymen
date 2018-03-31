@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>菜鸟教程(runoob.com)</title>
+</head>
+<body>
+<button id="btn">click1</button>
+<script>
+    var str = "ffawfdsfsdfewasq";
+
+    function firstAndUnique1(str) {
+        var obj = {};
+        var len = str.length, i;
+        for (i = 0; i < len; i++) {
+            if (obj[str[i]]) {
+                obj[str[i]]++;
+            } else {
+                obj[str[i]] = 1;
+            }
+        }
+
+        // str.split("").forEach(function (ele) {  //速度更慢 性能差
+        //     if (obj[ele]) {
+        //         obj[ele]++
+        //     } else {
+        //         obj[ele] = 1;
+        //     }
+        // });
+
+        for (var prop in obj) {
+            if (obj[prop] === 1) {
+                return prop;
+            }
+        }
+    }
+
+    //性能测试
+    btn.onclick = function () {
+        console.time("fn1");
+        for (var i = 0; i < 100; i++) {
+            for (var j = 0; j < 1000; j++) {
+                firstAndUnique1(str);
+            }
+        }
+        console.timeEnd("fn1");
+    };
+
+
+</script>
+
+
+</body>
+</html>

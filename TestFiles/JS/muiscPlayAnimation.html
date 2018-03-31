@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .wrapper {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .circle{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 65px solid #333333;
+            background: url("../../images/gallery/image (1).png") no-repeat center center;
+            background-size: cover;
+            /*animation-fill-mode: both;*/
+            animation: move 10s linear 0.3s infinite paused;
+        }
+        .pin{
+            position: absolute;
+            top:-65px;
+            left:50%;
+            height: 150px;
+            width: 10px;
+            transform-origin: top;
+            transform: translateX(-50%) rotateZ(-50deg);
+            background: gainsboro;
+            border-bottom-left-radius: 100%;
+            border-bottom-right-radius: 100%;
+            transition: transform 0.3s linear;
+        }
+        .active{
+            transform: translateX(-50%) rotateZ(-40deg);
+        }
+        .move {
+            animation-play-state: running;
+        }
+        @keyframes move {
+            0%{
+                transform:  rotateZ(0deg);
+            }
+            100%{
+                transform: rotateZ(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="wrapper">
+    <div class="circle"></div>
+    <div class="pin"></div>
+</div>
+<button class="btn">button</button>
+<script>
+    var btn = document.getElementsByClassName("btn")[0];
+    var circle = document.getElementsByClassName("circle")[0];
+    var pin =document.getElementsByClassName("pin")[0];
+    btn.flag = true;
+    btn.addEventListener("click",function () {
+           if(this.flag){
+               circle.classList.add("move");
+               pin.classList.add("active");
+               this.flag = false;
+           }else {
+               circle.classList.remove("move");
+               pin.classList.remove("active");
+               this.flag = true;
+           }
+    })
+</script>
+</body>
+</html>

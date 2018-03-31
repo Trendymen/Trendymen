@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .getNews{
+            display: block;
+        }
+    </style>
+    <script src="http://jsfiles/tools.js"></script>
+</head>
+<body>
+<button class="getNews">getNews</button>
+<input type="text" name="username" title="name">
+<input type="text" name="age" title="age">
+<input type="submit" name="submit">
+<ul class="news"></ul>
+<script>
+    var btn = document.getElementsByClassName("getNews")[0];
+    var ul = document.getElementsByClassName("news")[0];
+    var submit = document.getElementsByName("submit")[0];
+    submit.onclick=function (e) {
+        e.preventDefault();
+        var data="username="+document.getElementsByName("username")[0].value+"&age="+document.getElementsByName("age")[0].value;
+        console.log(data);
+        ajax("post","http://jsfiles/network/post.php",data,true,alertMessage);
+    };
+
+    btn.onclick=function () {
+      ajax("get","http://jsfiles/network/getNews.php","",true,getNews)
+    };
+
+    function ajax(method, url, data, flag, callback) {
+        var xhr = new window.XMLHttpRequest();
+        if (method === "get") {
+            xhr.open(method, url + data, flag);
+        }
+        else if (method === "post") {
+            xhr.open(method, url, flag);
+            xhr.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+        }
+        xhr.send(data);
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                callback(xhr.responseText);
+            }
+        }
+    }
+
+    function getNews(responseText) {
+        var data = JSON.parse(responseText);
+        var documentFragment = document.createDocumentFragment();
+        data.forEach(function (value) {
+            var li = document.createElement("li");
+            li.innerHTML = value.title + "-" + value.date;
+            documentFragment.appendChild(li);
+        });
+        ul.innerHTML="";
+        ul.appendChild(documentFragment);
+    }
+
+    function alertMessage (responseText) {
+        alert(responseText);
+    }
+</script>
+</body>
+</html>

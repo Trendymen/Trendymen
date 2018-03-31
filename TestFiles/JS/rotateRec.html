@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .wrapper {
+            position: absolute;
+            top: 50%;
+            transform: translate3d(-50%, -50%, 0);
+            left: 50%;
+            border: 1px solid #333;
+        }
+
+        .wrapper ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        .wrapper ul li {
+            margin: 10px;
+            width: 100px;
+            height: 100px;
+            perspective: 300px;
+        }
+
+        .box {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            transition: transform 0.2s linear;
+            transform-origin: center center -50px;
+            transform-style: preserve-3d;
+        }
+
+        .box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .box .hide {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            background: black;
+            color: white;
+            z-index: -1;
+            transition-delay: 0.2s;
+        }
+
+        .box.top {
+            transform: rotate3d(-1, 0, 0, 90deg);
+        }
+        .box.left {
+            transform: rotate3d(0, 1, 0, 90deg);
+        }
+        .box.right {
+            transform: rotate3d(0, -1, 0, 90deg);
+        }
+        .box.bottom {
+            transform: rotate3d(1, 0, 0, 90deg);
+        }
+
+        .box.top .hide {
+            transition-delay: 0s;
+            transform-origin: bottom;
+            transform: translate3d(0, -100%, 0) rotate3d(1, 0, 0, 90deg);
+        }
+        .box.right .hide {
+            transition-delay: 0s;
+            transform-origin: left;
+            transform: translate3d(100%, 0, 0) rotate3d(0, 1, 0, 90deg);
+        }
+        .box.bottom .hide {
+            transition-delay: 0s;
+            transform-origin: top;
+            transform: translate3d(0, 100%, 0) rotate3d(-1, 0, 0, 90deg);
+        }
+        .box.left .hide {
+            transition-delay: 0s;
+            transform-origin: right;
+            transform: translate3d(-100%, 0, 0) rotate3d(0, -1, 0, 90deg);
+        }
+
+
+    </style>
+</head>
+<body>
+
+<div class="wrapper">
+    <ul>
+        <li>
+            <div class="box">
+                <img src="../../images/gallery/image (1).png"/>
+                <div class="hide">1</div>
+        <li>
+            <div class="box">
+                <img src="../../images/gallery/image (1).png"/>
+                <div class="hide">2</div>
+            </div>
+        </li>
+        <li>
+            <div class="box">
+                <img src="../../images/gallery/image (1).png"/>
+                <div class="hide">3</div>
+            </div>
+        </li>
+        <li>
+            <div class="box">
+                <img src="../../images/gallery/image (1).png"/>
+                <div class="hide">4</div>
+            </div>
+        </li>
+    </ul>
+
+</div>
+<script>
+    var li = [].slice.apply(document.getElementsByTagName("li"));
+
+    function rotateBox(e) {
+        var x = e.offsetX - 0.5 * e.target.offsetWidth;
+        var y = -(e.offsetY - 0.5 * e.target.offsetHeight);
+        console.log("x:" + x + " y:" + y);
+        var arcTan = Math.atan2(y, x);
+        var deg = arcTan * (180 / Math.PI);
+        deg = deg < 0 ? (360 + deg) : deg;
+
+        if (deg < 45 || deg > 315) {
+            direction = "right";
+        }
+        if (deg < 135 && deg > 45) {
+            direction = "top";
+        }
+        if (deg > 135 && deg < 225) {
+            direction = "left";
+        }
+        if (deg > 225 && deg < 315) {
+            direction = "bottom";
+        }
+        this.children[0].classList.add(direction);
+    }
+
+    function recover(e) {
+        this.children[0].className = "box";
+    }
+
+    function bindEvent(li) {
+        li.forEach(function (value) {
+            value.addEventListener("mouseenter", rotateBox);
+            value.addEventListener("mouseleave", recover)
+        })
+    }
+
+    bindEvent(li);
+
+</script>
+</body>
+</html>

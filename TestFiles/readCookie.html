@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button class="btn">
+    getCookie
+</button>
+<script>
+    var btn = document.getElementsByClassName("btn")[0];
+    btn.onclick=function () {
+     ajax();
+    };
+    function ajax() {
+        var xhr = new XMLHttpRequest();
+        xhr.open("get","setCookie.php");
+        xhr.send();
+        xhr.onreadystatechange=function () {
+            if(xhr.readyState === 4){
+                if(xhr.responseText){
+                    var data = JSON.parse(xhr.responseText);
+                    console.log(data.cookie);
+                }
+            }
+        }
+
+    }
+</script>
+</body>
+</html>

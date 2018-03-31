@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta charset="UTF-8">
+
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        .elastic{
+
+            margin-left: 300px;
+            margin-top: 300px;
+            position: relative;
+            width: 300px;
+            height: 100px;
+
+        }
+        .content{
+            border-radius: 10px;
+            float: left;
+            border: 1px solid #424242;
+            width: 98px;
+            height: 98px;
+            line-height: 98px;
+            text-align: center;
+        }
+        .back{
+            border-radius: 10px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100px;
+            height: 100px;
+            background-color: #b3d4fc;
+            opacity: 0.5;
+        }
+    </style>
+    <script src="Tools.js"></script>
+</head>
+
+<body>
+<ul class="elastic">
+    <li class="content">1</li>
+    <li class="content">2</li>
+    <li class="content">3</li>
+    <li class="back"></li></ul>
+
+<script>
+var li=document.getElementsByClassName("content");
+var back=document.getElementsByClassName("back")[0];
+Array.prototype.forEach.call(li,function (ele,index) {
+    ele.onmouseenter=function () {
+        elasticMove(back,this.offsetLeft)
+    }
+})
+</script>
+</body>
+
+</html>

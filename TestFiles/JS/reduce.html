@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+
+    var b = [1, 2, 3, 4];
+    Array.prototype.plus = function plus() {
+        // return this.reduce((result, current) => result + current);  //ES6箭头函数
+        return this.reduce(function (result, current) {
+            return result + current;
+        })
+    };
+
+    console.log("最终的值" + b.plus());
+
+</script>
+</body>
+</html>

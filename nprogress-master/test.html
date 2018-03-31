@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src='../nprogress.js'></script>
+    <link rel='stylesheet' href='../nprogress.css'/>
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <title>NProgress: slim progress bars in JavaScript</title>
+</head>
+<body>
+<div class='contents fade out'>
+    <div class='controls'>
+        <p>
+            <button class='button play' id='b-0'></button>
+            <i>NProgress</i><b>.start()</b>
+            &mdash;
+            shows the progress bar
+        </p>
+        <p>
+            <button class='button play' id='b-40'></button>
+            <i>NProgress</i><b>.set(0.4)</b>
+            &mdash;
+            sets a percentage
+        </p>
+        <p>
+            <button class='button play' id='b-inc'></button>
+            <i>NProgress</i><b>.inc()</b>
+            &mdash;
+            increments by a little
+        </p>
+        <p>
+            <button class='button play' id='b-100'></button>
+            <i>NProgress</i><b>.done()</b>
+            &mdash;
+            completes the progress
+        </p>
+    </div>
+    <div class='actions'>
+        <a href='https://github.com/rstacruz/nprogress' class='button primary big'>
+            Download
+            v<span class='version'></span>
+        </a>
+        <p class='brief'>Perfect for Turbolinks, Pjax, and other Ajax-heavy apps.</p>
+    </div>
+    <div class='hr-rule'></div>
+
+</div>
+<script>
+    $('body').show();
+    $('.version').text(NProgress.version);
+    NProgress.start();
+    setTimeout(function () {
+
+        $('.fade').removeClass('out');
+    }, 1);
+
+    $(document).ready(function () {
+
+        NProgress.done();
+    });
+
+    $("#b-0").click(function () {
+        NProgress.start();
+    });
+    $("#b-40").click(function () {
+        NProgress.set(0.4);
+    });
+    $("#b-inc").click(function () {
+        NProgress.inc();
+    });
+    $("#b-100").click(function () {
+        NProgress.done();
+    });
+</script>
+</body>
+</html>

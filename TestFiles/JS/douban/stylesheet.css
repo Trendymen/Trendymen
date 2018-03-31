@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: #555d53;
+}
+
+.nav {
+    min-width: 1024px;
+    width: 100%;
+    background: #f0f3ef;
+    position: relative;
+}
+
+.nav-wrapper {
+    border-bottom: 1px solid gainsboro;
+}
+
+.nav-primary {
+    padding: 10px 0 5px;
+    width: 1024px;
+    margin: 0 auto;
+
+}
+
+.nav-primary div {
+    vertical-align: middle;
+
+}
+
+.logo {
+    display: inline-block;
+    height: 56px;
+    width: 145px;
+    margin: 0 13px 0 0;
+    background: url(//img3.doubanio.com/dae/accounts/resources/094108a/music/assets/lg_music_a12_2.png?s=1) no-repeat 0 12px;
+    background-image: -webkit-image-set(url(//img3.doubanio.com/dae/accounts/resources/094108a/music/assets/lg_music_a12_2.png?s=1) 1x, url(//img3.doubanio.com/dae/accounts/resources/094108a/music/assets/lg_music@2x.png?s=1) 2x);
+    background-image: -moz-image-set(url(//img3.doubanio.com/dae/accounts/resources/094108a/music/assets/lg_music_a12_2.png?s=1) 1x, url(//img3.doubanio.com/dae/accounts/resources/094108a/music/assets/lg_music@2x.png?s=1) 2x);
+    background-image: -ms-image-set(url(//img3.doubanio.com/dae/accounts/resources/094108a/music/assets/lg_music_a12_2.png?s=1) 1x, url(//img3.doubanio.com/dae/accounts/resources/094108a/music/assets/lg_music@2x.png?s=1) 2x);
+    background-image: -o-image-set(url(//img3.doubanio.com/dae/accounts/resources/094108a/music/assets/lg_music_a12_2.png?s=1) 1x, url(//img3.doubanio.com/dae/accounts/resources/094108a/music/assets/lg_music@2x.png?s=1) 2x);
+}
+
+.search {
+    height: 30px;
+    font-size: 0;
+    /*overflow: hidden;*/
+
+    display: inline-block;
+
+}
+
+.search input[type="text"] {
+    border-radius: 3px 0 0 3px;
+    -webkit-box-shadow: 0px 1px 1px #bfbfbf;
+    -moz-box-shadow: 0px 1px 1px #bfbfbf;
+    box-shadow: 0px 1px 1px #bfbfbf;
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    width: 430px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.search input[type="submit"] {
+    border-radius: 0 3px 3px 0;
+    outline: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+    background: url(//img3.doubanio.com/dae/accounts/resources/094108a/music/assets/nav_mu_bg.png?s=1) no-repeat 0 -40px;
+    vertical-align: top;
+    border: none;
+    width: 37px;
+    height: 31px;
+}
+
+.search input[type="submit"]:hover {
+    box-shadow: inset 0 0 20px 5px gray;
+}
+
+.activity {
+    background-color: transparent;
+    top: 0;
+    left: 50%;
+    margin-left: 330px;
+    width: 186px;
+    height: 96px;
+    position: absolute;
+    background: url(//img3.doubanio.com/dae/accounts/resources/094108a/music/assets/annual_2017.png) center/contain no-repeat;
+
+}
+
+.nav .list {
+
+    width: 1024px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.nav .list li {
+    margin-right: 30px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.nav .list li a {
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+}
+
+.searchList {
+    background-color: #ffffff;
+    position: absolute;
+    box-sizing: border-box;
+    width: 440px;
+    border: 1px solid gainsboro;
+
+}
+
+.searchList li {
+    padding: 7px 5px 5px;
+    font-size: 12px;
+    height: 40px;
+    border-bottom: 1px solid gainsboro;
+}
+.searchList li a{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.searchList li img {
+    height: 100%;
+}
+
+.searchList li span {
+    display: inline-block;
+    text-indent: 5px;
+    color: #369;
+    vertical-align: top;
+}
+
+.searchList li em {
+    color:lightslategrey;
+    font-style: normal;
+    vertical-align: top;
+}

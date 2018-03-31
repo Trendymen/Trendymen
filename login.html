@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <style>
+        input{
+            border-color:#aaaaaa;
+            border-radius: 5px;
+            border-width: 1px;
+            outline: 0;
+            border-style: solid;
+            width: 206px;
+            height: 24px;
+            padding: 1px
+        }
+        input:hover{
+            border-color: #24b6ee;
+        }
+        #验证码{
+            border-color:#aaaaaa;
+            border-radius: 5px;
+            border-width: 1px;
+            outline: 0;
+            border-style: solid;
+            width: 50px;
+            height: 24px;
+            padding: 1px
+        }
+        #验证码:hover{
+            border-color: #24b6ee;
+        }
+        #忘:hover{
+            text-shadow: rgba(0, 0, 0, 0.3) 4px 2px 8px;
+
+        }
+        #注册:hover{
+            text-shadow: rgba(0, 0, 0, 0.3) 4px 2px 8px;
+
+        }
+        #登录{
+            cursor:pointer;
+            border-radius: 10px;
+            width: 90px;
+            height: 38px;
+            background-color: #169BD5;
+            text-align: center;
+            line-height: 38px;
+            color: white;
+            margin-left: 100px;
+            margin-top: 20px;
+            font-size: 18px;
+            font-family: 微软雅黑, serif
+        }
+        #登录:hover
+        {
+            background-color: #525252;
+
+        }
+        label{
+            width:70px;
+            display:inline-block;
+            float: left;
+            line-height:28px;
+        }
+        ul{
+            padding-left: 0px;
+            width:400px;
+            list-style:none;
+        }
+        li{
+            padding:12px;
+        }
+        #captcha_img{
+            margin-left: 82px;
+            border-radius: 20px;
+            border-color: #24b6ee;
+            border-style:solid;
+            border-width: 2px;
+        }
+        </style>
+</head>
+
+<body style="margin: 0">
+<script>
+    if(window.name != "bencalie"){
+        location.reload();
+        window.name = "bencalie";
+    }else{
+        window.name = "";
+    } //返回键强制刷新页面
+</script>
+<!--login框-->
+<div style="width: 976px;height: 420px;margin: 81px auto auto auto;padding: 25px;border: solid 1.5px gainsboro;box-shadow: 10px 10px 5px rgba(54,54,54,0.35);">
+    <p style="padding-bottom:4px;width: 900px;line-height:29px;margin-top:0px;margin-bottom:0;float: left;font-size: 25px;font-family: 微软雅黑;color:#424242">
+        请登录</p>
+    <img style="position: relative;top: 6px;float: left;" src="images/login/锁.svg">
+    <p style="padding-bottom:4px;width: 60px;line-height:29px;margin-top:0px;margin-bottom:0;float: left;font-size: 14px;font-family: 微软雅黑;color: #888888">
+         &nbsp;安全</p>
+    <div style="clear: both;background-color: gainsboro;height:1px;opacity: 0.34;box-shadow: #333333 0 0 8px ;margin-top: 3px"></div>
+    <div style="float: left;width: 380px;padding-left:100px;height: 380px;">
+        <p   style="margin-top: 20px;font-size: 18px;font-family:微软雅黑, serif;font-weight:bolder;color: #333333;">
+            登录</p>
+        <form name="login" action="login.php" method="post">
+            <ul>
+                <li>
+                    <label>用户名：</label>
+                    <input  type=text name="username">
+                </li>
+                <li>
+                    <label>密码：</label>
+                    <input   type="password" name="password">
+                </li>
+
+                <li>
+                    <label>验证码：</label>
+                    <input id="验证码" type="text" name="code" size="4" />
+                </li>
+                <a href="javascript:" onclick="document.getElementById('captcha_img').src='captcha.php?r='+Math.random()" style="text-decoration:none;">
+                    <img id="captcha_img" src="captcha.php" alt=""  >
+                </a>
+        <a id="忘" href="register.html" style="color: #0085cf;font-family: 微软雅黑, serif;font-size: 12px;text-decoration:none;margin-top: 10px" >
+            <p style="margin-top:20px;padding-left: 100px">
+
+                忘了自己的账号或密码？</p></a>
+        <input id="登录" type="submit" name="submit" value="登录">
+            </ul>
+           </form>
+    </div>
+    <img style="float: left;margin-top: 20px" src="images/login/u1460.png">
+    <div style="float: left;width: 455px;height: 380px;padding-left: 25px">
+        <p style="margin-top: 135px;text-align: center;font-size: 18px;font-family:微软雅黑, serif;font-weight: lighter">
+            你可以使用自己的账号来<br>购买所有商品</p>
+        <a id="注册" href="register.html" style="text-align: center;color: #0085cf;font-family: 微软雅黑, serif;font-size: 12px;text-decoration:none;" >
+            <p>
+            没有账号?<br>立即创建一个</p></a>
+
+    </div>
+    </div>
+
+<!--底部-->
+
+</body>
+</html>
+

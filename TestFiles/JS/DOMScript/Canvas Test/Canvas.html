@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<canvas width="200" height="200">
+
+</canvas>
+
+<script>
+    function draw() {
+        var canvas=document.getElementsByTagName("canvas")[0];
+        if(canvas.getContext){
+            var ctx=canvas.getContext("2d");
+            ctx.fillRect(0,0,200,200);
+            ctx.beginPath();
+            ctx.moveTo(0,20);
+            ctx.quadraticCurveTo(0,0,20,0);
+            ctx.lineTo(40,0);
+            ctx.quadraticCurveTo(60,0,60,20);
+            ctx.lineTo(60,40);
+            ctx.quadraticCurveTo(60,60,40,60);
+            ctx.lineTo(20,60);
+            ctx.quadraticCurveTo(0,60,0,40);
+            ctx.lineTo(0,20);
+            ctx.fillStyle="black";
+            ctx.fill();
+            ctx.strokeStyle="white";
+            ctx.lineWidth=2;
+            ctx.stroke();
+            ctx.beginPath();
+            ctx.arc(30,30,20,0,Math.PI*2);
+            ctx.strokeStyle="white";
+            ctx.stroke();
+
+        }
+
+
+    }
+    draw()
+</script>
+</body>
+</html>

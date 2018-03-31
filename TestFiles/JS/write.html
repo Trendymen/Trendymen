@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> new document </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=gbk"/>
+    <script type="text/javascript">
+        var person={
+            name:"john",
+            age:function(str){
+                var age;
+                //获取生日
+                var strBirthdayArr=str.split(",");
+                var birthYear=strBirthdayArr[0];
+                var birthMonth=strBirthdayArr[1];
+                var birthDay=strBirthdayArr[2];
+                //获取现在时间
+                var time=new Date();
+                var nowYear=time.getFullYear();
+                var nowMonth=time.getMonth()+1;
+                var nowDay=time.getDate();
+                if(birthYear==nowYear){
+                    age=0
+                }
+                else
+                {
+                    var agediff=nowYear-birthYear;
+                    if(agediff>0){
+                        if( nowMonth==birthMonth){
+                            if(nowDay<birthDay){
+                                age=agediff-1;
+                            }
+                            else{
+                                age=agediff;
+                            }
+                        }
+                        else if(nowMonth<birthMonth){
+                            age=agediff-1;
+                        }
+                        else
+                        {
+                            age=agediff;
+                        }
+                    }
+                    else
+                    {
+                        age="输入日期格式错误<br>请用\",\"作为年月日间隔";
+                    }
+                }
+                return age;
+            }
+        }
+
+        function getAndSetStr() {
+            var str=document.getElementById("typeDate").value;
+
+            document.getElementById("showAge").innerHTML=person.age(str);
+
+        }
+
+
+
+    </script>
+    <script src="../../js/jquery-1.8.3.min.js"></script>
+</head>
+<html>
+<body >
+<input id="typeDate" type="text" oninput="getAndSetStr()" onporpertychange="getAndSetStr()">
+<p id="showAge">Your age will be shown here.</p>
+<ul>
+    <li>dadas</li>
+    <li>dadas</li>
+    <li>dadas</li>
+</ul>
+<script>
+    
+    var ul=document.getElementsByTagName("ul")[0];
+    var firstLi=ul.children[0];
+    var newLi=document.createElement("li");
+    newLi.innerHTML=firstLi.innerHTML;
+    ul.appendChild(newLi);
+</script>
+<button value="1">1</button>
+<button value="2">1</button>
+<button value="3">1</button>
+<script>
+
+
+    var btn = document.getElementsByTagName("button");
+    for(i=0;i<btn.length;i++){
+            btn[i].setAttribute("id", "b" + (i + 1));
+    }
+
+</script>
+</body>
+</html>
+</html>

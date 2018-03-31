@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="chinese">
+<head>
+    <meta charset="UTF-8">
+    <title>Trendymen首页</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <script src='nprogress.js'></script>
+    <link rel='stylesheet' href='nprogress.css'/>
+    <link rel='stylesheet' href='stylesheet.css'/>
+    <script src="js/jquery-1.8.3.min.js">
+        window.onLoad =
+            NProgress.start();
+    </script>
+
+    <style>
+        .backgroungd {
+
+            min-width: 1400px;
+            height: 69px;
+            width: 100%;
+            background: linear-gradient(to right,#b9def0,pink);
+            border-bottom: 2px solid gainsboro;
+            box-shadow: 0 0 10px #ddd;
+            -webkit-box-shadow: 0 0 10px #ddd;
+
+        }
+
+        .navbar {
+            margin: 0 auto 0 auto;
+            min-width: 1323px;
+            width: 75%;
+            background-color: rgba(0, 0, 0, 0);
+            height: 69px;
+
+        }
+
+        .navbar ul {
+            float: left;
+            padding-left: 0px;
+            margin-left: 100px;
+            margin-top: 0px;
+
+        }
+
+        .navbar li {
+            cursor: pointer;
+            float: left;
+            height: 69px;
+            width: 75px;
+            list-style: none;
+            font-family: 微软雅黑, serif;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .navbar li + li {
+            margin-left: 75px;
+        }
+
+        .navbar li a {
+            line-height: 69px;
+            font-size: 18px;
+            text-decoration: none;
+            color: #333333;
+            transition-property: font-size, color; /*执行效果类*/
+            transition-duration: 0.3s; /*执行效果时间*/
+            transition-timing-function: ease-in-out; /*以相同的速度从开始到结束的过渡效果*/
+        }
+
+        .navbar li:hover a {
+            color: #666666;
+            font-size: 22px;
+        }
+
+        .logo {
+            height: 56px;
+            width: 131px;
+            position: absolute;
+            left: 34px;
+            top: 6px;
+            background: url("images/index/logo.png") ;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .sousuo {
+            float: left;
+            margin-left: 70px;
+            margin-top: 22px;
+        }
+
+        .shoppingcart {
+            float: left;
+            margin-top: 15px;
+            margin-left: 0px;
+
+        }
+
+        .customservice {
+            float: left;
+            margin-top: 15px;
+            margin-left: 21px;
+        }
+
+        .login {
+            float: left;
+
+            height: 69px;
+
+        }
+
+        .login a {
+            transition-property: font-size, color; /*执行效果类*/
+            transition-duration: 0.3s; /*执行效果时间*/
+            transition-timing-function: ease-in-out; /*以相同的速度从开始到结束的过渡效果*/
+            color: #333333;
+            font-size: 16px;
+            font-family: 微软雅黑, serif;
+            font-weight: bold;
+            display: inline;
+            float: left;
+            padding-top: 24px;
+            padding-left: 21px;
+            text-decoration: none;
+        }
+
+        .login a:hover {
+            color: #666666;
+            font-size: 22px;
+        }
+
+        .menu {
+
+            cursor: pointer;
+            width: 318px;
+            height: 114px;
+            font-size: 28px;
+            font-weight: bold;
+            font-family: 微软雅黑, serif;
+
+        }
+        .hr{
+            height: 2px;
+            background: linear-gradient(to right,white,grey,white);
+            border-width: 1px;
+            width: 318px;
+
+        }
+        .menu p {
+            margin-top: 34px;
+            float: left;
+        }
+
+        .menu img {
+            transition-property: padding-left; /*执行效果类*/
+            transition-duration: 0.2s; /*执行效果时间*/
+            transition-timing-function: ease-in-out;
+        }
+
+        /*以相同的速度从开始到结束的过渡效果*/
+        .menu:hover img {
+            padding-left: 40px;
+        }
+
+        .content {
+            padding: 20px 0 0 0;
+
+        }
+
+        #iPad li + li {
+            margin-left: 200px;
+        }
+
+        #iPhone li + li {
+            margin-left: 150px;
+        }
+
+        #iPhone {
+            padding: 0 0 20px 0
+        }
+
+        #watch li + li {
+            margin-left: 100px;
+        }
+
+        .content li + li {
+            margin-left: 10px;
+
+        }
+
+        .content li {
+            float: left;
+            list-style: none;
+            height: 200px;
+
+        }
+
+        .content a {
+            color: #666666;
+            font-family: 微软雅黑, serif;
+            font-size: 13px;
+            text-decoration: none;
+            transition-property: color, font-size, font-weight; /*执行效果类*/
+            transition-duration: 0.1s; /*执行效果时间*/
+            transition-timing-function: ease; /*以相同的速度从开始到结束的过渡效果*/
+        }
+
+        .content a:hover {
+            color: #24b6ee;
+            font-weight: bold;
+            font-size: 14px;
+        }
+
+        #bottom li + li {
+            margin-left: 100px;
+        }
+
+        #bottom li {
+            font-family: 微软雅黑, serif;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        #easyui-searchbox {
+
+            font-size: 14px;
+            border-color: #919191;
+            border-radius: 7px;
+            border-width: 1px;
+            border-style: solid;
+            box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 8px;
+            -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 8px;
+            -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 8px;
+            line-height: 24px;
+            height: 24px;
+            padding: 1px;
+            float: left;
+            background-color: rgba(255, 255, 255, 0.6);
+        }
+
+
+        .title {
+
+            font-size: 22px;
+            padding-left: 5px;
+            width: 1318px;
+            height: 80px;
+            margin: 0px auto 0px auto;
+            line-height: 80px;
+            border-radius: 15px;
+            font-family: Kristen ITC;
+            font-weight: 600;
+            color: #3b3b3b;
+        }
+        img{
+            border: none;
+        }
+        .productspromote{
+            background: linear-gradient(to bottom,white, #70d8ff,pink,white);
+        }
+
+    </style>
+
+</head>
+<!--导航栏-->
+
+<body style="margin: 0;background-color: #ffffff">
+<div class="backgroungd">
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html"> </a>
+        </div>
+        <!--<img  src="images/index/logo.png" height="56" width="131"/>-->
+        <ul>
+            <li><a href="search_result.php?search=%E4%B8%8A%E8%A3%85">上装</a></li>
+            <li><a href="search_result.php?search=%E4%B8%8B%E8%A3%85">下装</a></li>
+            <li><a href="search_result.php?search=%E9%9E%8B%E5%93%81">鞋品</a></li>
+            <li><a href="search_result.php?search=%E9%85%8D%E9%A5%B0">配饰</a></li>
+
+        </ul>
+        <!-- 搜索栏 -->
+        <form action="search_result.php" method="get" class="sousuo" style="width:225px">
+            <input id="easyui-searchbox" name="search" type="text">
+            <input type="image" src="images/index/search.png" height="18" width="17"
+                   style="margin-left:5px;margin-top: 6px">
+
+            </input>
+        </form>
+
+        <div class="shoppingcart">
+            <a href="#"><img src="images/index/u14.png" height="40" width="40"/></a>
+        </div>
+        <div class="customservice">
+            <a href="#"><img src="images/index/u12.svg" height="40" width="40"/></a>
+        </div>
+        <div class="login">
+            <a href="">登录</a>
+        </div>
+
+    </div>
+</div>
+<script>
+    $('.version').text(NProgress.version);
+    NProgress.start();
+    setTimeout(function () {
+
+        $('.fade').removeClass('out');
+    }, 1);
+
+    $(document).ready(function () {
+
+        NProgress.done();
+    });
+
+    $("#b-0").click(function () {
+        NProgress.start();
+    });
+    $("#b-40").click(function () {
+        NProgress.set(0.4);
+    });
+    $("#b-inc").click(function () {
+        NProgress.inc();
+    });
+    $("#b-100").click(function () {
+        NProgress.done();
+    });
+</script>
+
+
+<!--菜单栏和图片轮播-->
+<div style="margin-left: auto;margin-right: auto;margin-top: 20px;width: 1323px;height:462px;">
+    <!--菜单栏-->
+    <div style="float: left;width: 318px;height: 462px;">
+       <div   class="menu" onclick="window.open('search_result.php?search=上装');"  >
+        <img src="images/index/T.svg" height="70" width="70" style="float: left;margin-top:20px;margin-left:30px;"/>
+        <p style=";margin-left:30px;color:#333333;">上装</p>
+    </div>
+        <div class="hr"></div>
+    <div class="menu" onclick="window.open('search_result.php?search=下装');" >
+        <img src="images/index/裤子.svg" height="70" width="70" style=" float:left;margin-top:20px;;margin-left:30px;"/>
+        <p style="margin-left:30px;color:#333333;">下装</p>
+    </div>
+        <div class="hr"></div>
+    <div class="menu" onclick="window.open('search_result.php?search=鞋品');" >
+        <img src="images/index/shoes.svg" height="70" width="70" style=" float:left;margin-top:20px;margin-left:30px;"/>
+        <p style="margin-left:30px;color:#333333;">鞋品</p>
+    </div>
+        <div class="hr"></div>
+    <div class="menu" onclick="window.open('search_result.php?search=配饰');" >
+        <img src="images/index/配饰.svg" height="70" width="70" style=" float:left;margin-top:20px;margin-left:30px;"/>
+        <p style="margin-left:30px;color:#333333;">配饰</p>
+    </div>
+    </div>
+
+    <!--图片轮播-->
+    <div id="jquery-script-menu"  > </div>
+    <div class="slider" >
+        <div class="slider-container">
+            <div class="slider-wrapper">
+                <div class="slide"> <a href="#">
+                    <img src="images/index/Z.jpg"/>
+                     </a></div>
+                <div class="slide"> <a href="#">
+                    <img src="images/index/2Q==.jpg"/></a> </div>
+                <div class="slide"> <a href="#">
+                    <img src="images/index/AzT1cPNBOfPfAAAAAElFTkSuQmCC.png" /></a> </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="src/js/jquery-1.8.3.min.js"></script>
+    <script src="src/js/slider.js"></script>
+    <script type="text/javascript">
+        (function() {
+            Slider.init({
+                target: $('.slider'),
+                time: 6000
+            });
+        })();
+    </script>
+    </div>
+      
+
+
+<div class="productspromote">
+    <?php include ("index_result.php");?>
+    <div class="boder"></div>
+    <div class="title">
+        Trendymen推荐
+    </div>
+    <div class="boder"></div>
+    <!--商品推荐Mac-->
+    <div style="clear:both; width: 1323px;height: 360px;margin-left: auto;margin-right: auto;position: relative;">
+        <p style="width: 1318px;height: 28px; background: linear-gradient(to right,gainsboro,#f6f6f6);font-size: 20px;font-family: 微软雅黑,serif;font-weight: bold;color: #333333;
+padding-left: 5px;margin: 0;border-top-left-radius: 8px">
+            上装
+        </p>
+        <div class="index_products_board" >
+        <a href="product_page.php?id=94" target="view_window" class="index_products_side"  >
+            <div class="index_products_image"style="background-image: url( upload/衣服1.jpg);" ></div>
+            <div class="index_products_title" >圆领 长袖94</div>
+            <div class="index_products_price" >￥258</div>
+        </a>
+        <a href="product_page.php?id=96" target="view_window" class="index_products_side"  >
+            <div class="index_products_image"style="background-image: url( upload/衣服3.jpg);" ></div>
+            <div class="index_products_title" >新款 秋季96</div>
+            <div class="index_products_price" >￥358</div>
+        </a>
+        <a href="product_page.php?id=97" target="view_window" class="index_products_side"  >
+            <div class="index_products_image"style="background-image: url( upload/衣服4.jpg);" ></div>
+            <div class="index_products_title" >韩版 秋装97</div>
+            <div class="index_products_price" >￥299</div>
+        </a>
+        <a href="product_page.php?id=95" target="view_window" class="index_products_side"  >
+            <div class="index_products_image"style="background-image: url( upload/衣服5.jpg);" ></div>
+            <div class="index_products_title" >白色 衬衫95</div>
+            <div class="index_products_price" >￥188</div>
+        </a>
+        <a href="product_page.php?id=98" target="view_window" class="index_products_side"  >
+            <div class="index_products_image"style="background-image: url( upload/衣服2.jpg);" ></div>
+            <div class="index_products_title" >薄款 冬装98</div>
+            <div class="index_products_price" >￥328</div>
+        </a>
+    </div>
+
+
+
+    </div>
+
+    <!--商品推荐iPad-->
+    <div style="clear:both; width: 1323px;height: 360px;margin-left: auto;margin-right: auto;position: relative;top:20px;">
+        <p style="width: 1318px;height: 28px; background: linear-gradient(to right,#6633CC,#f6f6f6);font-size: 20px;font-family: 微软雅黑,serif;font-weight: bold;color: #FFFFFF;
+padding-left: 5px;margin-bottom: 0;border-top-left-radius: 8px">
+            下装
+        </p>
+        <div class="index_products_board" >
+            <a href="product_page.php?id=99" target="view_window" class="index_products_side"  >
+                <div class="index_products_image"style="background-image: url( upload/裤子1.jpg);" ></div>
+                <div class="index_products_title" >潮男 修身99</div>
+                <div class="index_products_price" >￥99</div>
+            </a>
+            <a href="product_page.php?id=100" target="view_window" class="index_products_side"  >
+                <div class="index_products_image"style="background-image: url( upload/裤子5.jpg);" ></div>
+                <div class="index_products_title" >修身 长裤100</div>
+                <div class="index_products_price" >￥199</div>
+            </a>
+            <a href="product_page.php?id=105" target="view_window" class="index_products_side"  >
+                <div class="index_products_image"style="background-image: url( upload/裤子4.jpg);" ></div>
+                <div class="index_products_title" >运动 小裤脚105</div>
+                <div class="index_products_price" >￥256</div>
+            </a>
+            <a href="product_page.php?id=101" target="view_window" class="index_products_side"  >
+                <div class="index_products_image"style="background-image: url( upload/裤子2.jpg);" ></div>
+                <div class="index_products_title" >嘻哈 牛仔101</div>
+                <div class="index_products_price" >￥238</div>
+            </a>
+            <a href="product_page.php?id=102" target="view_window" class="index_products_side"  >
+                <div class="index_products_image"style="background-image: url( upload/裤子3.jpg);" ></div>
+                <div class="index_products_title" >宽松 牛仔102</div>
+                <div class="index_products_price" >￥308</div>
+            </a>
+        </div>
+
+
+    </div>
+
+    <!--商品推荐iPhone-->
+    <div style="clear:both; width: 1323px;height: 360px;margin-left: auto;margin-right: auto;position: relative;top:20px;">
+        <p style="width: 1318px;height: 28px; background: linear-gradient(to right,#3366CC,#f6f6f6);font-size: 20px;font-family: 微软雅黑,serif;font-weight: bold;color: black;
+padding-left: 5px;margin-bottom: 0;border-top-left-radius: 8px">
+            鞋品
+        </p>
+        <div class="index_products_board" >
+            <a href="product_page.php?id=106" target="view_window" class="index_products_side"  >
+                <div class="index_products_image"style="background-image: url( upload/鞋2.jpg);" ></div>
+                <div class="index_products_title" >库里男球鞋106</div>
+                <div class="index_products_price" >￥1299</div>
+            </a>
+            <a href="product_page.php?id=107" target="view_window" class="index_products_side"  >
+                <div class="index_products_image"style="background-image: url( upload/鞋1.jpg);" ></div>
+                <div class="index_products_title" >三叶草 白107</div>
+                <div class="index_products_price" >￥688</div>
+            </a>
+            <a href="product_page.php?id=108" target="view_window" class="index_products_side"  >
+                <div class="index_products_image"style="background-image: url( upload/鞋3.jpg);" ></div>
+                <div class="index_products_title" >匡威 休闲108</div>
+                <div class="index_products_price" >￥468</div>
+            </a>
+            <a href="product_page.php?id=109" target="view_window" class="index_products_side"  >
+                <div class="index_products_image"style="background-image: url( upload/鞋4.jpg);" ></div>
+                <div class="index_products_title" >耐克 开拓者109</div>
+                <div class="index_products_price" >￥688</div>
+            </a>
+            <a href="product_page.php?id=110" target="view_window" class="index_products_side"  >
+                <div class="index_products_image"style="background-image: url( upload/鞋5.jpg);" ></div>
+                <div class="index_products_title" >亚瑟士 经典款110</div>
+                <div class="index_products_price" >￥568</div>
+            </a>
+        </div>
+    </div>
+
+
+
+
+    <!--商品推荐Watch-->
+    <div style="clear:both; width: 1323px;height: 360px;margin-left: auto;margin-right: auto;position: relative;top:20px;">
+        <p style="width: 1318px;height: 28px; background: linear-gradient(to right,black,#f6f6f6);font-size: 20px;font-family: 微软雅黑,serif;font-weight: bold;color: #ffffff;
+padding-left: 5px;margin-bottom: 0;border-top-left-radius: 8px">
+            配饰
+        </p>
+        <div class="index_products_board" >
+            <a href="product_page.php?id=112" target="view_window" class="index_products_side"  >
+                <div class="index_products_image"style="background-image: url( upload/帽子4.jpg);" ></div>
+                <div class="index_products_title" >经典棒球帽112</div>
+                <div class="index_products_price" >￥198</div>
+            </a>
+            <a href="product_page.php?id=113" target="view_window" class="index_products_side"  >
+                <div class="index_products_image"style="background-image: url( upload/手表3.jpg);" ></div>
+                <div class="index_products_title" >DW 手表113</div>
+                <div class="index_products_price" >￥1288</div>
+            </a>
+            <a href="product_page.php?id=114" target="view_window" class="index_products_side"  >
+                <div class="index_products_image"style="background-image: url( upload/围巾5.jpg);" ></div>
+                <div class="index_products_title" >韩版 围巾114</div>
+                <div class="index_products_price" >￥68</div>
+            </a>
+            <a href="product_page.php?id=115" target="view_window" class="index_products_side"  >
+                <div class="index_products_image"style="background-image: url( upload/钱包1.jpg);" ></div>
+                <div class="index_products_title" >真皮 钱包115</div>
+                <div class="index_products_price" >￥158</div>
+            </a>
+            <a href="product_page.php?id=111" target="view_window" class="index_products_side"  >
+                <div class="index_products_image"style="background-image: url( upload/皮带2.jpg);" ></div>
+                <div class="index_products_title" >七匹狼真皮111</div>
+                <div class="index_products_price" >￥128</div>
+            </a>
+        </div>
+
+    </div>
+</div>
+<script src="TestFiles/JS/Tools.js"></script>
+<script>
+    var div = document.getElementsByClassName("logo")[0];
+    var a=div.getElementsByTagName("a")[0];
+    drag(div);
+    var img=div.getElementsByTagName("img")[0];
+    a.addEvent("click",function (e) {
+        console.log("a");
+        e.preventDefault();
+        e.stopPropagation();
+
+    });
+
+</script>
+  </body>
+</html>

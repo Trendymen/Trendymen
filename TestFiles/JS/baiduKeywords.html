@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        html {
+            height: 100%;
+            width: 100%;
+        }
+
+        .search {
+            white-space: nowrap;
+            width: 500px;
+            margin: 200px auto 0 auto;
+        }
+
+        .input {
+            box-sizing: border-box;
+            font-size: 18px;
+            padding: 2px;
+            width: 400px;
+            height: 40px;
+            border: 1px solid gainsboro;
+        }
+
+        .input:focus {
+            border: 1px solid deepskyblue;
+            outline: none;
+        }
+
+        .ul {
+            position: absolute;
+            display: none;
+            width: 400px;
+            box-sizing: border-box;
+            border: 1px solid gainsboro;
+            border-top-width: 0;
+        }
+
+        .ul a {
+            color: #424242;
+            text-decoration: none;
+        }
+
+        .ul a:hover li {
+            background-color: gainsboro;
+        }
+
+        .ul li {
+            padding: 2px;
+        }
+
+        .s_btn {
+            width: 100px;
+            height: 40px;
+            color: #fff;
+            letter-spacing: 1px;
+            background: #3385ff;
+            border-bottom: 1px solid #2d78f4;
+            outline: medium;
+            *border-bottom: 0;
+            -webkit-appearance: none;
+            -webkit-border-radius: 0;
+            box-sizing: border-box;
+            padding-top: 2px \9;
+            font-size: 14px;
+            padding: 0;
+            background-position: 0 -48px;
+            border: 0;
+            cursor: pointer;
+            vertical-align: top;
+
+        }
+    </style>
+</head>
+<body>
+<div class="search">
+    <input type="text" name="keywords" class="input"><input id="su" value="百度一下" class="s_btn" type="submit">
+    <ul class="ul"></ul>
+</div>
+
+<script>
+    var fn = (function () {
+        var input = document.getElementsByClassName("input")[0];
+        var ul = document.getElementsByClassName("ul")[0];
+        input.addEventListener("input", function () {
+            clearTimeout(this.timer);
+            this.timer = setTimeout(function () {
+                var script = document.createElement("script");
+                script.src = "https://sp0.baidu.com/5a1Fazu8AA54nxGko9WTAnF6hhy/su?wd=" + this.value + "&cb=fn";
+                document.body.appendChild(script);
+                document.body.removeChild(script);
+            }.bind(this), 200);
+
+        });
+
+        input.addEventListener("keydown", function (e) {
+            if (e.keyCode === 13) {
+                window.location.href = "https://www.baidu.com/s?wd=" + input.value;
+            }
+
+        });
+
+        su.addEventListener("click", function () {
+            window.location.href = "https://www.baidu.com/s?wd=" + input.value;
+        });
+
+        input.addEventListener("blur", function (e) {
+            if ([].indexOf.call(ul.children, e.relatedTarget) !== -1) {
+                e.relatedTarget.onclick();
+            } else {
+                ul.style.display = "none";
+            }
+
+        });
+
+        return function (data) {
+            if (data.s.length > 0) {
+                var fragment = document.createDocumentFragment();
+                data.s.forEach(function (value) {
+                    var a = document.createElement("a");
+                    var li = document.createElement("li");
+                    a.appendChild(li);
+                    a.href = " https://www.baidu.com/s?wd=" + value;
+                    li.innerHTML = value;
+                    fragment.appendChild(a);
+                });
+                ul.innerHTML = "";
+                ul.appendChild(fragment);
+                ul.style.display = "block";
+            } else {
+                ul.style.display = "none";
+            }
+
+        }
+    }());
+
+
+</script>
+</body>
+</html>

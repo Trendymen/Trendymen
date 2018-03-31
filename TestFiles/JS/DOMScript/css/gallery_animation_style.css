@@ -1,0 +1,25 @@
+#change {
+    position: relative;
+    height: 595px;
+    width: 300px;
+    overflow: hidden;
+}
+
+img {
+    float: left;
+    height: 595px;
+    width: 300px;
+}
+
+#slide {
+    position: absolute;
+    width: 1200px;
+    height: 595px;
+}
+
+li {
+    width: 100px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="DOMScript/AJAX/gallery%20ajax/addLoadEvent.js"></script>
+    <script src="moveElement.js"></script>
+    <script>
+        function setstyle() {
+            var div = document.getElementsByTagName("div")[0];
+            div.style.position = "absolute";
+            div.style.Left = "20px";
+            div.style.Top = "20px";
+            div.style.backgroundColor = "red";
+            div.style.width = "200px";
+            div.style.height = "200px";
+
+        }
+
+        addLoadEvent(setstyle);
+        addLoadEvent(function () {
+            movediv("div", 200, 400, 1);
+        });
+    </script>
+</head>
+<body>
+<div id="div">
+
+</div>
+</body>
+</html>

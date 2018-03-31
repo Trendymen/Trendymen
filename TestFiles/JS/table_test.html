@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        th{
+            background-color: grey;
+            border: 1px dotted white;
+            width: 10em;
+            padding: 0;
+        }
+
+        table {
+            border: 1px solid grey;
+            border-spacing: 0;
+        }
+    </style>
+    <script src="DOMScript/AJAX/gallery%20ajax/addLoadEvent.js"></script>
+    <script>
+        function addbackgroud() {
+            var table=document.getElementsByTagName("table");
+            var odd,rows;
+            for(var i=0;i<table.length;i++){
+                odd=true;
+                rows=table[i].getElementsByTagName("tr");
+                for(var j=0;j<rows.length;j++){
+                    console.log(rows[j]);
+                    if(odd==true){
+                        rows[j].style.backgroundColor="grey";
+                        odd=false;
+                    }
+                    else {
+                        odd=true;
+                    }
+                }
+            }
+        }
+        addLoadEvent(addbackgroud);
+    </script>
+</head>
+<body>
+<table>
+    <caption>Table</caption>
+    <thead>
+    <tr>
+        <th>1</th>
+        <th>2</th>
+    </tr>
+    </thead>
+
+    <tbody>
+    <tr>
+        <td>11</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>21</td>
+        <td>22</td>
+    </tr>
+    <tr>
+        <td>31</td>
+        <td>32</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

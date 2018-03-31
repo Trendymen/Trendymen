@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="DOMScript/AJAX/gallery%20ajax/addLoadEvent.js"></script>
+</head>
+<style>
+    button {
+        display: inline-block;
+        margin-left: 10px;
+        width: 60px;
+        height: 50px;
+        border-radius: 5px;
+        outline: none;
+    }
+</style>
+<body>
+<ul>
+    <button type="button"></button>
+    <button type="button"></button>
+    <button type="button"></button>
+    <button type="button"></button>
+    <button type="button"></button>
+</ul>
+<script>
+    function addonclick() {
+        var btn = document.getElementsByTagName("button");
+        for (var i = 0; i < btn.length; i++) {
+            btn[i].onclick = rf(btn[i]);
+            btn[i].innerHTML = "delete";
+        }
+    }
+
+    function d(btn) {
+        if (window.timer) {
+            return true;
+        }
+        var nextbtn = btn.nextElementSibling;
+        var width = parseFloat(window.getComputedStyle(btn, null)["width"]);
+        var ml = parseFloat(window.getComputedStyle(btn, null)["margin\-left"]);
+        btn.parentNode.removeChild(btn);
+        if (nextbtn) {
+            nextbtn.style.marginLeft = width + (2 * ml) + "px";
+            move(nextbtn, ml);
+
+        }
+    }
+
+    function move(btn, l) {
+
+        var ml = null;
+        var v = null;
+
+        function move1() {
+            ml = parseFloat(window.getComputedStyle(btn, null)["margin\-left"]);
+            if (!ml) {
+                ml = parseFloat(window.getComputedStyle(btn, null)["margin\-left"]);
+                console.log(window.getComputedStyle(btn, null)["margin\-left"]);
+            }
+            if (ml > l) {
+                v = Math.ceil((ml - l) / 5);
+                // console.log(ml);
+                btn.style.marginLeft = (ml - v) + "px";
+                window.timer = requestAnimationFrame(move1);
+            }
+            else {
+                cancelAnimationFrame(window.timer);
+                window.timer = null;
+            }
+        }
+
+        window.timer = requestAnimationFrame(move1);
+
+    }
+
+    function rf(btn) {
+        return function () {
+            d(btn);
+            return false;
+        }
+    }
+
+    addLoadEvent(addonclick);
+</script>
+</body>
+</html>

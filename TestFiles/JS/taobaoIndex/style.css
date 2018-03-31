@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration:none;
+    font-family: Arial,sans-serif;
+}
+.nav{
+    margin-top: 50px;
+    background-color: #f40;
+}
+
+
+.nav .list-item,.nav .list-item a{
+    display:inline-block;
+}
+.nav .list-item a{
+    position:relative;
+    font-weight:bold;
+    height:30px;
+    line-height: 30px;
+    padding: 0 10px;
+    color:white;
+}
+.nav .list-item a:hover::before{
+    text-align: center;
+    vertical-align: bottom;
+    font-family:iconfont;
+    content: "\e735";
+    position:absolute;
+    top:-23px;
+    left: 50%;
+    margin-left: -10px;
+    font-size: 20px;
+    color:#f40
+}

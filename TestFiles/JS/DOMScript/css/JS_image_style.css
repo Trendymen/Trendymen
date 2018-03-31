@@ -1,0 +1,13 @@
+ul{
+    list-style: none;
+}
+li{
+    display: inline;
+    margin-left: 100px;
+}
+a{
+    text-decoration: none;
+}
+#textShow{
+
+}

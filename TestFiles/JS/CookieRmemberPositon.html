@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .drag {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: 0
+        }
+
+        .drag:nth-child(1) {
+            background-color: orange;
+            left: 0;
+        }
+
+        .drag:nth-child(2) {
+            background-color: red;
+            left: 200px;
+        }
+    </style>
+    <script src="Tools.js"></script>
+</head>
+<body>
+<div class="drag"></div>
+<div class="drag"></div>
+</body>
+<script>
+    function RememberPosition(ele,id) {
+        this.ele = ele;
+        this.id = id;
+        if (this.getCookie(id)) {
+            var Position = this.getCookiePosition();
+            console.log(Position);
+            this.ele.style.left = Position.x + "px";
+            this.ele.style.top = Position.y + "px";
+        } else {
+            this.setCookie(this.id, "x0y0");
+        }
+    }
+
+    RememberPosition.prototype = {
+        constructor: RememberPosition,
+        setCookie: function (name, value) {
+            document.cookie = (name ? name : this.id) + "=" + (value ? value : this.changeValue())
+                + "; Max-age=1000000";
+        },
+        getCookie: function () {
+            var cookie = document.cookie;
+            var arr = cookie.split(" ");
+            for (var i = 0; i < arr.length; i++) {
+                var cookieArr = arr[i].split("=");
+                if (cookieArr[0] === this.id) {
+                    return cookieArr[1];
+                }
+            }
+        },
+        getPosition: function () {
+            var x = parseInt(getComputedStyle(this.ele).left);
+            var y = parseInt(getComputedStyle(this.ele).top);
+            return {x: x, y: y};
+        },
+        changeValue: function () {
+            var reg = /x[-]*\d+y[-]*\d+/;
+            var positon = this.getPosition();
+            return this.getCookie().replace(reg, "x" + positon.x + "y" + positon.y);
+        },
+        getCookiePosition: function () {
+            var reg = /x([-]*\d+)y([-]*\d+)/;
+            var str = this.getCookie().match(reg);
+            return {x: str[1], y: str[2]};
+        }
+    };
+    Array.prototype.forEach.call(document.getElementsByClassName("drag"), function (ele, index) {
+        var dragCookie = new RememberPosition(ele,"div" + index);
+        drag(ele, dragCookie.setCookie.bind(dragCookie))
+    });
+
+
+</script>
+</html>

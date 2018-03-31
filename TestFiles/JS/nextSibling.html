@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="DOMScript/AJAX/gallery%20ajax/addLoadEvent.js"></script>
+    <script>
+        function addStyle() {
+            var h1 = document.getElementsByTagName("h1");
+            for (var i = 0; i < h1.length; i++) {
+                getNextElement(h1[i].nextSibling).style.color = "red";
+
+            }
+        }
+        function getNextElement(node) {    //相当于 nextElementSibling
+
+            if (node.nodeType == 1) {
+                return node;
+            }
+            else if (node.nextSibling) {
+                var nextNode = getNextElement(node.nextSibling);
+                return nextNode;
+            }
+            else {
+                return null;
+            }
+        }
+        addLoadEvent(addStyle);
+
+    </script>
+</head>
+<body>
+<h1>fdgdgdfg</h1>
+<p>fdsfsd</p>
+<p>fsdfsdf</p>
+<h1>fdgdgdfg</h1>
+<p>fdsfsd</p>
+<p>fsdfsdf</p>
+</body>
+</html>

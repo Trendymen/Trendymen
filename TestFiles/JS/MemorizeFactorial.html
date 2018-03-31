@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+    <script src="../../js/jquery.js"></script>
+    <style>
+
+    </style>
+
+</head>
+<body>
+<script>
+
+    var factorial =  (function f (num) { //记忆式递归函数
+        if (!f.cache) {
+            f.cache = {};
+        }
+        if (f.cache[num]) {
+            return f.cache[num];
+        }
+        else {
+            if (num === 1 || 0) {
+                return 1;
+            } else {
+                f.cache[num] = num * f(num - 1);
+                return f.cache[num];
+            }
+        }
+
+    });
+    var newF=factorial;
+    f = null;
+
+    console.time("first");
+    console.log(newF(5));
+    console.timeEnd("first");
+    console.time("second");
+    console.log(newF(5));
+    console.timeEnd("second");
+
+</script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button id="btn">click2</button>
+<script>
+    var str = "ffawfdsfsdfewasq";
+    function firstAndUnique2(str) {
+        len = str.length;
+        var i, j;
+        var out;
+        for (i = 0; i < len; i++) {
+            out = str[i];
+            for (j = 0; j < len; j++) {
+                if (i !== j) {
+                    if (str[i] === str[j]) {
+                        out = "";
+                        break;
+                    }
+                }
+
+            }
+            if (out) {
+                return out;
+            }
+        }
+    }
+    //性能测试
+    btn.onclick = function () {
+        console.time("fn2");
+        for (var i = 0; i < 100; i++) {
+            for (var j = 0; j < 1000; j++) {
+                firstAndUnique2(str);
+            }
+        }
+        console.timeEnd("fn2");
+    };
+</script>
+</body>
+</html>

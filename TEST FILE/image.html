@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+
+#captcha_img{
+    border-radius: 20px;
+    border-color: #24b6ee;
+    border-style:solid;
+    border-width: 2px;
+}
+</style>
+<body>
+
+        <a class="验证码" href="" onclick="document.getElementById('captcha_img').src='captcha.php?r='+Math.random()" >
+            <img id="captcha_img" src="../captcha.php" alt="" id="codeimg">
+        </a>
+</body>
+</html>

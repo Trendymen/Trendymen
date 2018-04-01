@@ -1,30 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>注册</title>
     <style>
-        .login a{
+        .login a {
             color: #FFFFFF;
         }
-        .login a:hover{
-            color:#333333;
+
+        .login a:hover {
+            color: #333333;
         }
+
         /*底部的格式*/
-        .input{
+
+        .input {
             margin: 15px auto 0 auto;
             width: 1343px;
             height: 30px
         }
-        .front{
+
+        .front {
             font-family: 微软雅黑, serif;
             float: left;
-            margin:0 10px 0 400px;
+            margin: 0 10px 0 400px;
             line-height: 30px;
             width: 100px;
             text-align: right;
         }
-        .later{
+
+        .later {
             opacity: 0;
             margin-left: 10px;
             font-family: 新宋体, serif;
@@ -43,7 +49,10 @@
             -moz-box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 8px;
             -webkit-box-shadow: rgba(0, 0, 0, 0.8) 0px 0px 8px;
         }
-        input[type="text"],[type="password"],[type="email"]{
+
+        input[type="text"],
+        [type="password"],
+        [type="email"] {
             width: 206px;
             height: 26px;
             padding: 1px;
@@ -55,22 +64,27 @@
             border-style: solid;
 
         }
-        input[type="text"]:hover,[type="password"]:hover,[type="email"]:hover{
+
+        input[type="text"]:hover,
+        [type="password"]:hover,
+        [type="email"]:hover {
             border-color: #24b6ee;
         }
-        .input select
-        {
-            border-color:#aaaaaa;
-            width:95px;
+
+        .input select {
+            border-color: #aaaaaa;
+            width: 95px;
             height: 30px;
             border-radius: 5px;
             outline: 0;
         }
-        .input select:hover{
+
+        .input select:hover {
             border-color: #24b6ee;
         }
-        #registerbutton{
-            cursor:pointer;
+
+        #registerbutton {
+            cursor: pointer;
             border-radius: 10px;
             width: 90px;
             height: 38px;
@@ -83,132 +97,127 @@
             font-size: 18px;
             font-family: 微软雅黑, serif
         }
-        #registerbutton:hover
-        {
+
+        #registerbutton:hover {
             background-color: #525252;
 
         }
-        #tip5{
+
+        #tip5 {
             margin-top: 105px;
         }
-        li{
+
+        li {
             list-style: none;
         }
     </style>
     <script src="js/jquery-1.8.3.min.js"></script>
     <script>
-        $(document).ready(function() {
+        $(document).ready(function () {
             $("#input1").focus(function () {
-                    $("#tip1").css('opacity','1');
-                }
-            );
+                $("#tip1").css('opacity', '1');
+            });
             $("#input1").blur(function () {
-                    $("#tip1").css('opacity','0')
+                    $("#tip1").css('opacity', '0')
                 }
 
             );
 
             $("#input2").focus(function () {
-                    $("#tip2").css('opacity','1');
-                }
-            );
+                $("#tip2").css('opacity', '1');
+            });
             $("#input2").blur(function () {
-                    $("#tip2").css('opacity','0')
+                    $("#tip2").css('opacity', '0')
                 }
 
             );
 
             $("#input3").focus(function () {
-                    $("#tip3").css('opacity','1');
-                }
-            );
+                $("#tip3").css('opacity', '1');
+            });
             $("#input3").blur(function () {
-                    $("#tip3").css('opacity','0')
+                    $("#tip3").css('opacity', '0')
                 }
 
             );
 
             $("#input4").focus(function () {
-                    $("#tip4").css('opacity','1');
-                }
-            );
+                $("#tip4").css('opacity', '1');
+            });
             $("#input4").blur(function () {
-                    $("#tip4").css('opacity','0')
+                    $("#tip4").css('opacity', '0')
                 }
 
             );
 
             $("#input5").focus(function () {
-                    $("#tip5").css('opacity','1');
+                $("#tip5").css('opacity', '1');
 
 
-                }
-            );
+            });
             $("#input5").blur(function () {
-                    $("#tip5").css('opacity','0')
+                    $("#tip5").css('opacity', '0')
 
 
                 }
 
             );
         })
-
-
     </script>
 </head>
 
 <body onload="createCode()" style="margin: 0">
 
-<div style="margin: 220px auto auto auto;width: 1343px  ">
+    <div style="margin: 220px auto auto auto;width: 1343px  ">
 
-    <form action="register.php" method="post" style="width: 771px;height:446px;float: left">
-    <div class="input">
-        <p class="front">
-            *用户名&nbsp;&nbsp;</p>
-        <input id="input1"  type="text" name="username">
-   </div>
-    <div class="input">
-        <p class="front">
-            *密码&nbsp;&nbsp;</p>
-        <input id="input2" type="password" name="password">
-    </div>
-    <div class="input">
-        <p class="front">
-            *确认密码&nbsp;&nbsp;</p>
-        <input id="input3" type="password" name="confirm">
-    </div>
-    <div class="input">
-        <p class="front">
-            *邮箱&nbsp;&nbsp;</p>
-        <input id="input4" type="email" name="email" >
-    </div>
-    <div class="input">
-        <p class="front" >
-            *性别&nbsp;&nbsp;</p>
-        <p style="line-height: 30px;margin-top: 0px;margin-bottom: 0px;font-family: 微软雅黑, serif">
-            <input  type="radio" value="male" checked="checked" name="sex"/>男
-            <input  type="radio" value="female" checked="checked" name="sex"/>女
-        </p>
-    </div>
-        <div class="input">
-            <p class="front">
-                *验证码&nbsp;&nbsp;</p>
-            <input id="验证码" type="text" name="code" size="4" />
-        </div>
+        <form action="register.php" method="post" style="width: 771px;height:446px;float: left">
+            <div class="input">
+                <p class="front">
+                    *用户名&nbsp;&nbsp;</p>
+                <input id="input1" type="text" name="username">
+            </div>
+            <div class="input">
+                <p class="front">
+                    *密码&nbsp;&nbsp;</p>
+                <input id="input2" type="password" name="password">
+            </div>
+            <div class="input">
+                <p class="front">
+                    *确认密码&nbsp;&nbsp;</p>
+                <input id="input3" type="password" name="confirm">
+            </div>
+            <div class="input">
+                <p class="front">
+                    *邮箱&nbsp;&nbsp;</p>
+                <input id="input4" type="email" name="email">
+            </div>
+            <div class="input">
+                <p class="front">
+                    *性别&nbsp;&nbsp;</p>
+                <p style="line-height: 30px;margin-top: 0px;margin-bottom: 0px;font-family: 微软雅黑, serif">
+                    <input type="radio" value="male" checked="checked" name="sex" />男
+                    <input type="radio" value="female" checked="checked" name="sex" />女
+                </p>
+            </div>
+            <div class="input">
+                <p class="front">
+                    *验证码&nbsp;&nbsp;</p>
+                <input id="验证码" type="text" name="code" size="4" />
+            </div>
             <a href="javascript:" onclick="document.getElementById('captcha_img').src='captcha.php?r='+Math.random()" style="text-decoration:none;margin-left: 500px">
-                <img id="captcha_img" src="captcha.php" alt=""  >
+                <img id="captcha_img" src="captcha.php" alt="">
             </a>
 
 
-    <input type="submit" value="注册" onclick="validateCode();" id="registerbutton" >
+            <input type="submit" value="注册" onclick="validateCode();" id="registerbutton">
 
-</form>
-    <div style=" position: relative;width: 400px;height: 466px;overflow: hidden;">
-        <p id="tip1" class="later">请输入您的用户名！</p>
-        <p id="tip2" class="later">6~16个字符，区分大小写</p>
-        <p id="tip3" class="later">请再次填写密码</p>
-        <p id="tip4" class="later">输入您邮箱</p>
-        <p id="tip5" class="later">请填写图中的字符，不区分大小写</p>
+        </form>
+        <div style=" position: relative;width: 400px;height: 466px;overflow: hidden;">
+            <p id="tip1" class="later">请输入您的用户名！</p>
+            <p id="tip2" class="later">6~16个字符，区分大小写</p>
+            <p id="tip3" class="later">请再次填写密码</p>
+            <p id="tip4" class="later">输入您邮箱</p>
+            <p id="tip5" class="later">请填写图中的字符，不区分大小写</p>
 
         </div>
     </div>>
@@ -216,4 +225,5 @@
 
 
 </body>
+
 </html>

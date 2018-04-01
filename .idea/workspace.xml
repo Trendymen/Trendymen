@@ -1,0 +1,1117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e1360e51-e0b4-4c64-90ba-00624855aeab" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="printScope" value="1" />
+    <option name="OUTPUT_DIRECTORY" value="E:\wamp64\www\Trendymen\exportToHTML" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Trendymen" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="test.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TestFiles/JS/test.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="66" column="31" lean-forward="true" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="getNews.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestFiles/JS/network/getNews.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="572">
+              <caret line="22" column="2" lean-forward="false" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tools.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TestFiles/JS/Tools.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="702">
+              <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package_json" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>nprogress&quot;</find>
+      <find>nprogress</find>
+      <find>start_index</find>
+      <find>__get</find>
+      <find>menu</find>
+      <find>php</find>
+      <find>utf-8</find>
+      <find>$k</find>
+      <find>type_id</find>
+      <find>var</find>
+      <find>let</find>
+      <find>init</find>
+      <find>$</find>
+      <find>$(</find>
+      <find>function</find>
+      <find>document.getElementById</find>
+      <find>tmpxml</find>
+      <find>subSysMenuSelectID</find>
+      <find>subSysMenu</find>
+      <find>selectMainMenu</find>
+      <find>append</find>
+      <find>len</find>
+      <find>filter</find>
+      <find>LoadingImage</find>
+      <find>extend</find>
+      <find>Deferred</find>
+      <find>xhr</find>
+      <find>this.ele.name</find>
+      <find>id</find>
+      <find>factorial</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>FILTER_FLAG_HOST_REQUIRED</replace>
+      <replace>mysqli</replace>
+      <replace>public</replace>
+      <replace>let</replace>
+      <replace>var</replace>
+      <replace>tmpxml2</replace>
+      <replace>diff</replace>
+      <replace>ajax</replace>
+      <replace>oncover</replace>
+      <replace>id</replace>
+      <replace>this.id</replace>
+      <replace>f</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\wamp64\www\Trendymen\Test-files\JS\DuyiHomework-UserList</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Liuzhuo" />
+      </list>
+    </option>
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <push-targets>
+      <push-target-info target-remote="coding" target-branch="master" repo="$PROJECT_DIR$" source="master" />
+    </push-targets>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/TestFiles/JS/puzzle_game/MainScript.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Test-files/JS/puzzle_game/images/style.css" />
+        <option value="$PROJECT_DIR$/Test-files/JS/puzzle_game/style.css" />
+        <option value="$PROJECT_DIR$/Test-files/JS/puzzle_game/script.js" />
+        <option value="$PROJECT_DIR$/editor/.jshintrc" />
+        <option value="$PROJECT_DIR$/.jshintrc" />
+        <option value="$PROJECT_DIR$/Test-files/JS/puzzle_game/Tools.js" />
+        <option value="$PROJECT_DIR$/Test-files/JS/test.html" />
+        <option value="$PROJECT_DIR$/Test-files/JS/puzzle_game/MainScript.js" />
+        <option value="$PROJECT_DIR$/Test-files/JS/puzzle_game/puzzle_game.html" />
+        <option value="$PROJECT_DIR$/TestFiles/JS/network/getNews.php" />
+        <option value="$PROJECT_DIR$/TestFiles/JS/network/post.php" />
+        <option value="$PROJECT_DIR$/TestFiles/JS/network/index.html" />
+        <option value="$PROJECT_DIR$/TestFiles/JS/MobileGallery/script.js" />
+        <option value="$PROJECT_DIR$/TestFiles/JS/弹窗/test2.html" />
+        <option value="$PROJECT_DIR$/TestFiles/JS/test2.html" />
+        <option value="$PROJECT_DIR$/TestFiles/JS/css/style.css" />
+        <option value="$PROJECT_DIR$/TestFiles/JS/reduce.html" />
+        <option value="$PROJECT_DIR$/TestFiles/JS/获取字符串中第一个出现的唯一字母/firstAndUnique2.html" />
+        <option value="$PROJECT_DIR$/TestFiles/JS/获取字符串中第一个出现的唯一字母/firstAndUnique1.html" />
+        <option value="$PROJECT_DIR$/TestFiles/JS/MobileGallery/style.css" />
+        <option value="$PROJECT_DIR$/TestFiles/JS/baiduKeywords.html" />
+        <option value="$PROJECT_DIR$/TestFiles/setCookie.php" />
+        <option value="$PROJECT_DIR$/TestFiles/readCookie.html" />
+        <option value="$PROJECT_DIR$/TestFiles/JS/获取字符串中第一个出现的唯一字母/test.html" />
+        <option value="$PROJECT_DIR$/TestFiles/JS/CookieRmemberPositon.html" />
+        <option value="$PROJECT_DIR$/TestFiles/JS/call实现.js" />
+        <option value="$PROJECT_DIR$/TestFiles/JS/puzzle_game/style.css" />
+        <option value="$PROJECT_DIR$/TestFiles/JS/slider/轮播.html" />
+        <option value="$PROJECT_DIR$/TestFiles/JS/slider/sliderStyle.css" />
+        <option value="$PROJECT_DIR$/TestFiles/JS/slider/slider.html" />
+        <option value="$PROJECT_DIR$/TestFiles/JS/Tools.js" />
+        <option value="$PROJECT_DIR$/TestFiles/JS/bar.html" />
+        <option value="$PROJECT_DIR$/TestFiles/JS/AJAX_Waterfall/style.css" />
+        <option value="$USER_HOME$/Desktop/fadePPT/fadeAnimation.html" />
+        <option value="$USER_HOME$/Desktop/puzzle_game/puzzle_game.html" />
+        <option value="$USER_HOME$/Desktop/AJAX_Waterfall/index.html" />
+        <option value="$PROJECT_DIR$/TestFiles/JS/AJAX_Waterfall/index.html" />
+        <option value="$PROJECT_DIR$/TestFiles/JS/AJAX_Waterfall/waterFall_jQ.js" />
+        <option value="$PROJECT_DIR$/TestFiles/JS/AJAX_Waterfall/waterFall.js" />
+        <option value="$USER_HOME$/Desktop/项目/AJAX_Waterfall/index.html" />
+        <option value="$USER_HOME$/Desktop/项目/puzzle_game/puzzle_game.html" />
+        <option value="$PROJECT_DIR$/TestFiles/JS/MemorizeFactorial.html" />
+        <option value="$PROJECT_DIR$/iconfont/font_579224_5r9b78p4o3zbyb9/iconfont.css" />
+        <option value="$PROJECT_DIR$/TestFiles/JS/style.css" />
+        <option value="$PROJECT_DIR$/TestFiles/JS/taobaoIndex/taobao.html" />
+        <option value="$PROJECT_DIR$/TestFiles/JS/douban/index.html" />
+        <option value="$PROJECT_DIR$/TestFiles/JS/douban/stylesheet.css" />
+        <option value="$PROJECT_DIR$/TestFiles/JS/douban/js.js" />
+        <option value="$PROJECT_DIR$/TestFiles/JS/navigator.html" />
+        <option value="$PROJECT_DIR$/TestFiles/JS/muiscPlayAnimation.html" />
+        <option value="$PROJECT_DIR$/TestFiles/JS/test.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/editor/node_modules" />
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="334" />
+    <option name="y" value="29" />
+    <option name="width" value="1722" />
+    <option name="height" value="972" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>JSAnnotator</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Trendymen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trendymen" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Trendymen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trendymen" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Trendymen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trendymen" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TestFiles" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Trendymen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trendymen" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TestFiles" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="JS" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Trendymen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trendymen" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TestFiles" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="JS" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="MDN" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="Trendymen" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Trendymen" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="TestFiles" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="JS" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="network" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../zentao/www/OA" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="js.buildTools.grunt.grunt-cli.package" value="" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="" />
+    <property name="nodejs.jest.jest_package" value="" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.detected.package.jscs" value="true" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.path.for.package.eslint" value="E:/nodejs/node" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="E:\wamp64\www\Trendymen\node_modules\eslint" />
+    <property name="node.js.path.for.package.standard" value="E:/nodejs/node" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.selected.package.standard" value="E:\wamp64\www\Trendymen\node_modules\eslint" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="HTML&#10;JavaScript&#10;Angular2HTML&#10;RegExp" />
+    <property name="nodejs_interpreter_path" value="node" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\wamp64\www\Trendymen\images" />
+      <recent name="E:\wamp64\www\Trendymen\TestFiles\JS\gallery animation" />
+      <recent name="E:\wamp64\www\Trendymen\images\jsTest" />
+      <recent name="E:\wamp64\www\Trendymen\Test-files\JS\puzzle_game\images" />
+      <recent name="E:\wamp64\www\Trendymen\Test-files\JS\puzzle_game" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\wamp64\www\Trendymen\TestFiles\JS\douban" />
+      <recent name="E:\wamp64\www\Trendymen\TestFiles\JS\taobaoIndex" />
+      <recent name="E:\wamp64\www\Trendymen\iconfont" />
+      <recent name="E:\wamp64\www\Trendymen\js" />
+      <recent name="E:\wamp64\www\Trendymen\TestFiles\JS\AJAX_Waterfall" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.轮播.html">
+    <configuration name="JS_image.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost/Trendymen/TEST FILE/JS/JS_image.html" />
+    <configuration name="PageSupport" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost/HelloWorld/PageSupport" />
+    <configuration name="轮播.html" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://localhost:80/Trendymen/Test-files/JS/轮播.html" />
+    <configuration name="explannation.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost/Trendymen/TEST FILE/JS/explannation.html" />
+    <configuration name="search_result.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:80/HelloWorld/search_result.php" />
+    <configuration name="test.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:80/Trendymen/TEST FILE/JS/test.html" />
+    <configuration name="PageSupport.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/PageSupport.php" />
+    <configuration default="true" type="AppEnginePhpConfigurationType" factoryName="App Engine for PHP">
+      <method />
+    </configuration>
+    <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote">
+      <method />
+    </configuration>
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
+      <method />
+    </configuration>
+    <configuration default="true" type="FirefoxRemoteDebugType" factoryName="Firefox Remote">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeWebKit" factoryName="NW.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="Docker Deployment">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.grunt" factoryName="Grunt.js">
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <list size="7">
+      <item index="0" class="java.lang.String" itemvalue="PHP Script.PageSupport.php" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.轮播.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.PageSupport" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.search_result.php" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.JS_image.html" />
+      <item index="5" class="java.lang.String" itemvalue="JavaScript Debug.explannation.html" />
+      <item index="6" class="java.lang.String" itemvalue="JavaScript Debug.test.html" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.test.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.explannation.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.JS_image.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.search_result.php" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.PageSupport" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\lz199\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e1360e51-e0b4-4c64-90ba-00624855aeab" name="Default" comment="" />
+      <created>1493215146298</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1493215146298</updated>
+      <workItem from="1493297233960" duration="5084000" />
+      <workItem from="1493308621031" duration="82000" />
+      <workItem from="1493382802387" duration="10362000" />
+      <workItem from="1493448575860" duration="4436000" />
+      <workItem from="1493453088466" duration="12328000" />
+      <workItem from="1493532237467" duration="3372000" />
+      <workItem from="1493536897728" duration="46000" />
+      <workItem from="1493536953243" duration="111000" />
+      <workItem from="1493537083306" duration="59000" />
+      <workItem from="1493537209775" duration="7538000" />
+      <workItem from="1493612603806" duration="5030000" />
+      <workItem from="1493712689588" duration="2113000" />
+      <workItem from="1493728068516" duration="734000" />
+      <workItem from="1493728824863" duration="4835000" />
+      <workItem from="1493802984152" duration="4104000" />
+      <workItem from="1493863339730" duration="629000" />
+      <workItem from="1494001602301" duration="6473000" />
+      <workItem from="1494053719530" duration="13269000" />
+      <workItem from="1494081066049" duration="6317000" />
+      <workItem from="1494147756539" duration="333000" />
+      <workItem from="1494148098885" duration="8636000" />
+      <workItem from="1494169567901" duration="3560000" />
+      <workItem from="1494232188844" duration="14247000" />
+      <workItem from="1494306133067" duration="23871000" />
+      <workItem from="1494392136917" duration="136000" />
+      <workItem from="1494394589134" duration="1467000" />
+      <workItem from="1495004231953" duration="36000" />
+      <workItem from="1495010294181" duration="101000" />
+      <workItem from="1495014048681" duration="40000" />
+      <workItem from="1495015109630" duration="149000" />
+      <workItem from="1495106369520" duration="24000" />
+      <workItem from="1495122833684" duration="99000" />
+      <workItem from="1495122985432" duration="112000" />
+      <workItem from="1495197536567" duration="30000" />
+      <workItem from="1495212256238" duration="228000" />
+      <workItem from="1495292337144" duration="3000" />
+      <workItem from="1496491706235" duration="731000" />
+      <workItem from="1496509731480" duration="908000" />
+      <workItem from="1497764950404" duration="45000" />
+      <workItem from="1498496121364" duration="846000" />
+      <workItem from="1498496985632" duration="1758000" />
+      <workItem from="1498563958295" duration="5431000" />
+      <workItem from="1498633985030" duration="19932000" />
+      <workItem from="1498918542154" duration="36970000" />
+      <workItem from="1499352515855" duration="3119000" />
+      <workItem from="1499411791993" duration="9615000" />
+      <workItem from="1499757559616" duration="14972000" />
+      <workItem from="1500002852361" duration="446000" />
+      <workItem from="1500176266996" duration="11377000" />
+      <workItem from="1500950071059" duration="721000" />
+      <workItem from="1501166433863" duration="3078000" />
+      <workItem from="1501311684453" duration="12712000" />
+      <workItem from="1501497554173" duration="599000" />
+      <workItem from="1501666085213" duration="1246000" />
+      <workItem from="1501838282577" duration="2212000" />
+      <workItem from="1501845915524" duration="24865000" />
+      <workItem from="1502627867599" duration="42000" />
+      <workItem from="1502627945661" duration="31000" />
+      <workItem from="1502628007954" duration="5000" />
+      <workItem from="1502628042322" duration="11000" />
+      <workItem from="1502628123236" duration="73000" />
+      <workItem from="1502628354331" duration="13000" />
+      <workItem from="1502629887484" duration="50000" />
+      <workItem from="1502640527689" duration="28000" />
+      <workItem from="1502779544906" duration="14000" />
+      <workItem from="1502779714360" duration="9000" />
+      <workItem from="1502879854036" duration="19000" />
+      <workItem from="1504231075834" duration="43000" />
+      <workItem from="1507462554097" duration="52000" />
+      <workItem from="1508158739358" duration="3040000" />
+      <workItem from="1508239140684" duration="9906000" />
+      <workItem from="1508328463350" duration="604000" />
+      <workItem from="1508766008046" duration="2877000" />
+      <workItem from="1508768916056" duration="2000" />
+      <workItem from="1508769181361" duration="24155000" />
+      <workItem from="1508854312461" duration="96000" />
+      <workItem from="1508854417175" duration="842000" />
+      <workItem from="1509018361585" duration="784000" />
+      <workItem from="1509202521560" duration="505000" />
+      <workItem from="1509203062409" duration="169000" />
+      <workItem from="1509203627479" duration="180000" />
+      <workItem from="1509368298505" duration="3067000" />
+      <workItem from="1509372922794" duration="625000" />
+      <workItem from="1509538098575" duration="1615000" />
+      <workItem from="1509539824283" duration="1809000" />
+      <workItem from="1509620472134" duration="11154000" />
+      <workItem from="1509721779614" duration="8832000" />
+      <workItem from="1509781747699" duration="2621000" />
+      <workItem from="1510059449558" duration="910000" />
+      <workItem from="1510997714115" duration="911000" />
+      <workItem from="1511016035409" duration="3876000" />
+      <workItem from="1511157175848" duration="20905000" />
+      <workItem from="1511787954181" duration="2874000" />
+      <workItem from="1512303292461" duration="2423000" />
+      <workItem from="1513513287416" duration="6914000" />
+      <workItem from="1514283787711" duration="1970000" />
+      <workItem from="1514360524065" duration="4000" />
+      <workItem from="1514457673005" duration="1236000" />
+      <workItem from="1514627198424" duration="3328000" />
+      <workItem from="1514636733906" duration="8146000" />
+      <workItem from="1514877104184" duration="26182000" />
+      <workItem from="1514912747318" duration="355000" />
+      <workItem from="1514964674515" duration="28871000" />
+      <workItem from="1515049352882" duration="10214000" />
+      <workItem from="1515155387335" duration="14805000" />
+      <workItem from="1515219506200" duration="4289000" />
+      <workItem from="1515226037930" duration="28083000" />
+      <workItem from="1515309623155" duration="4718000" />
+      <workItem from="1515315915681" duration="176000" />
+      <workItem from="1515393259619" duration="23549000" />
+      <workItem from="1515471012960" duration="190000" />
+      <workItem from="1515480821361" duration="15029000" />
+      <workItem from="1515572673124" duration="15388000" />
+      <workItem from="1515651973525" duration="17451000" />
+      <workItem from="1515684572045" duration="4945000" />
+      <workItem from="1515826446987" duration="23754000" />
+      <workItem from="1515867173057" duration="28000" />
+      <workItem from="1515912136656" duration="6940000" />
+      <workItem from="1515931807234" duration="5125000" />
+      <workItem from="1515946873069" duration="1200000" />
+      <workItem from="1516005345490" duration="12070000" />
+      <workItem from="1516087912349" duration="5882000" />
+      <workItem from="1516113566607" duration="3956000" />
+      <workItem from="1516187191633" duration="16207000" />
+      <workItem from="1516364233262" duration="54000" />
+      <workItem from="1516370522976" duration="1221000" />
+      <workItem from="1516431919249" duration="6205000" />
+      <workItem from="1516442274162" duration="4048000" />
+      <workItem from="1516530881469" duration="13701000" />
+      <workItem from="1516606850568" duration="10860000" />
+      <workItem from="1516693964696" duration="307000" />
+      <workItem from="1516694333792" duration="3015000" />
+      <workItem from="1516698284730" duration="199000" />
+      <workItem from="1516698552078" duration="11121000" />
+      <workItem from="1516723475921" duration="3159000" />
+      <workItem from="1516726916943" duration="27000" />
+      <workItem from="1516780519788" duration="17297000" />
+      <workItem from="1516867385362" duration="4674000" />
+      <workItem from="1516880268340" duration="14383000" />
+      <workItem from="1517040660430" duration="7309000" />
+      <workItem from="1517048015911" duration="5279000" />
+      <workItem from="1517055696307" duration="523000" />
+      <workItem from="1517136499896" duration="5402000" />
+      <workItem from="1517152424420" duration="8613000" />
+      <workItem from="1517315239199" duration="21370000" />
+      <workItem from="1517397367934" duration="950000" />
+      <workItem from="1517401234159" duration="586000" />
+      <workItem from="1517405396638" duration="9614000" />
+      <workItem from="1517489474366" duration="3808000" />
+      <workItem from="1517493320619" duration="9980000" />
+      <workItem from="1517562728957" duration="2725000" />
+      <workItem from="1517647700573" duration="6677000" />
+      <workItem from="1517823217101" duration="13629000" />
+      <workItem from="1517930344412" duration="1087000" />
+      <workItem from="1517931566543" duration="11061000" />
+      <workItem from="1517992851881" duration="8963000" />
+      <workItem from="1518160943258" duration="31253000" />
+      <workItem from="1518245318048" duration="14334000" />
+      <workItem from="1518534936379" duration="4531000" />
+      <workItem from="1518598574318" duration="9801000" />
+      <workItem from="1519046517626" duration="2435000" />
+      <workItem from="1519288335981" duration="19235000" />
+      <workItem from="1519386610918" duration="9752000" />
+      <workItem from="1519461841381" duration="17997000" />
+      <workItem from="1519486466067" duration="5716000" />
+      <workItem from="1519546434839" duration="2213000" />
+      <workItem from="1519567080420" duration="4208000" />
+      <workItem from="1519651040256" duration="11408000" />
+      <workItem from="1519716738093" duration="15571000" />
+      <workItem from="1519806044697" duration="13463000" />
+      <workItem from="1519891110907" duration="16590000" />
+      <workItem from="1519930692736" duration="1763000" />
+      <workItem from="1519978921872" duration="30116000" />
+      <workItem from="1520058591725" duration="29777000" />
+      <workItem from="1520146965548" duration="19751000" />
+      <workItem from="1520737409794" duration="87000" />
+      <workItem from="1520737512849" duration="50000" />
+      <workItem from="1520737589662" duration="2226000" />
+      <workItem from="1520742094408" duration="47000" />
+      <workItem from="1520762844853" duration="3390000" />
+      <workItem from="1520865437066" duration="875000" />
+      <workItem from="1521040177144" duration="73000" />
+      <workItem from="1521373859997" duration="4709000" />
+      <workItem from="1521468737689" duration="1578000" />
+      <workItem from="1521885018250" duration="37552000" />
+      <workItem from="1522505163897" duration="419000" />
+      <workItem from="1522505666208" duration="24000" />
+      <workItem from="1522514766942" duration="1465000" />
+    </task>
+    <task id="LOCAL-00001" summary="TRENDYMEN">
+      <created>1522515108167</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1522515108167</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1239304000" />
+  </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <flatten-packages value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="334" y="29" width="1722" height="972" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892466" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20938627" sideWeight="0.49320388" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3252841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3245509" sideWeight="0.5027435" order="17" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17308798" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769555" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27461487" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" x="965" y="90" width="327" height="767" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.49725652" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21878788" sideWeight="0.5067961" order="2" side_tool="false" content_ui="tabs" x="482" y="316" width="362" height="254" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908162" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3222061" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3257143" sideWeight="0.5027435" order="17" side_tool="true" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32892466" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17308798" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27461487" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" x="965" y="90" width="327" height="767" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3252841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32974428" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908162" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32950193" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769555" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.49725652" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2203617" sideWeight="0.49320388" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3222061" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21902211" sideWeight="0.5067961" order="2" side_tool="false" content_ui="tabs" x="482" y="316" width="362" height="254" />
+      <window_info id="找到" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985657" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="EXTERNAL E:/wamp64/www/Trendymen">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/TEST FILE/JS" />
+      <path value="$PROJECT_DIR$/Test-files/JS" />
+    </ignored-roots>
+    <MESSAGE value="dasd" />
+    <MESSAGE value="TRENDYMEN" />
+    <option name="LAST_COMMIT_MESSAGE" value="TRENDYMEN" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="41" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/TestFiles/JS/MobileGallery/gallery/image (9).png" />
+    <entry file="file://$PROJECT_DIR$/TestFiles/JS/MobileGallery/gallery/image (10).png" />
+    <entry file="file://$PROJECT_DIR$/TestFiles/JS/slider/slider.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="45" column="44" lean-forward="true" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestFiles/JS/puzzle_game/MainScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="139" column="9" lean-forward="true" selection-start-line="139" selection-start-column="9" selection-end-line="139" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestFiles/JS/MobileGallery/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestFiles/JS/DuyiHomework-UserList/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="24" column="38" lean-forward="true" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/gallery/Rolling-1s-200px.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestFiles/JS/DOMScript/AJAX/gallery ajax/getHttpObjectt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/delete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2247">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/meesageboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5697">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestFiles/JS/baiduKeywords.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="111" column="54" lean-forward="false" selection-start-line="111" selection-start-column="54" selection-end-line="111" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestFiles/JS/AJAX_Waterfall/data.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/gallery/image (13).png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/gallery/image (14).png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/gallery/image (12).png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/fadePPT/fadeAnimation.html" />
+    <entry file="file://$USER_HOME$/Desktop/puzzle_game/puzzle_game.html" />
+    <entry file="file://$USER_HOME$/Desktop/AJAX_Waterfall/index.html" />
+    <entry file="file://$PROJECT_DIR$/TestFiles/JS/AJAX_Waterfall/waterFall.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="91" column="55" lean-forward="true" selection-start-line="91" selection-start-column="55" selection-end-line="91" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/项目/AJAX_Waterfall/index.html" />
+    <entry file="file://$USER_HOME$/Desktop/项目/fadePPT/fadeAnimation.html" />
+    <entry file="file://$USER_HOME$/Desktop/项目/puzzle_game/puzzle_game.html" />
+    <entry file="file://$USER_HOME$/Desktop/项目/UserList/index.html" />
+    <entry file="file://$USER_HOME$/Desktop/项目/puzzle_game/Tools.js" />
+    <entry file="file://$PROJECT_DIR$/TestFiles/JS/MemorizeFactorial.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="515">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestFiles/JS/write.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="79" column="26" lean-forward="true" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iconfont/font_579224_5r9b78p4o3zbyb9/iconfont.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iconfont/font_579224_5r9b78p4o3zbyb9/iconfont.eot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestFiles/JS/CookieRmemberPositon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="60" column="52" lean-forward="false" selection-start-line="60" selection-start-column="52" selection-end-line="60" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestFiles/JS/taobaoIndex/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="34" column="14" lean-forward="false" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestFiles/JS/taobaoIndex/taobao.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestFiles/JS/douban/s29114672.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestFiles/JS/AJAX_Waterfall/waterFall_jQ.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1755">
+          <caret line="95" column="0" lean-forward="true" selection-start-line="95" selection-start-column="0" selection-end-line="95" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestFiles/JS/AJAX_Waterfall/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="34" column="4" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestFiles/JS/douban/js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="42" column="48" lean-forward="true" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestFiles/JS/douban/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestFiles/JS/douban/stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="85" column="23" lean-forward="false" selection-start-line="85" selection-start-column="23" selection-end-line="85" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestFiles/JS/AJAX_Waterfall/getPics.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="65" lean-forward="true" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestFiles/JS/network/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="19" column="41" lean-forward="true" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestFiles/JS/AJAX_Waterfall/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="27" column="70" lean-forward="true" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestFiles/JS/MobileGallery/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestFiles/JS/navigator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestFiles/JS/bar.html" />
+    <entry file="file://$PROJECT_DIR$/images/gallery/image (1).png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestFiles/JS/rotateRec.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="999">
+          <caret line="160" column="60" lean-forward="true" selection-start-line="160" selection-start-column="60" selection-end-line="160" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestFiles/JS/muiscPlayAnimation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestFiles/JS/Tools.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="27" column="5" lean-forward="false" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestFiles/JS/network/getNews.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="22" column="2" lean-forward="false" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/imagesLoaded.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestFiles/JS/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="66" column="31" lean-forward="true" selection-start-line="66" selection-start-column="31" selection-end-line="66" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

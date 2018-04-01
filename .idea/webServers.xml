@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5dfaefc0-e592-4368-a0fb-1aafa40f3732" name="apache (project level)" url="http://localhost:80">
+        <fileTransfer port="0" mountedRoot="E:\wamp64\www\Trendymen" accessType="MOUNT" />
+      </webServer>
+    </option>
+  </component>
+</project>

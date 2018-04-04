@@ -4,107 +4,40 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
-        .drag {
-            position: absolute;
+        .grand {
+            perspective: 200px;
             width: 100px;
             height: 100px;
-            background: #333333;
+        }
+
+        .father {
+            transform-style: preserve-3d;
+        }
+        .a{
+            background: white;
+        }
+        .child {
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: black;
+            width: 100px;
+            height: 100px;
+            transform: translate3d(0,0,-1px);
         }
     </style>
     <script src="../../js/jquery.js"></script>
 </head>
 <body>
+<div class="grand">
+    <div class="father">
+        <div class="a">dasdasd</div>
+        <div class="child"></div>
+    </div>
+</div>
 
-<p id="data"></p>
-<button id="one">1</button>
-<button id="two">2</button>
+
 <script>
-    // var data = document.getElementById("data");
-    var one = document.getElementById("one");
-    // var two = document.getElementById("two");
-    // var arr = [];
-    // var loading;
-    //
-    // function get(num) {
-    //     if (loading && loading.state() === "pending" && arr[num] !== loading) {
-    //         loading.reject("stop");
-    //         clearTimeout(loading.time);
-    //         delete arr[arr.indexOf(loading)];
-    //     }
-    //     if (!arr[num]) {
-    //         var deferred = $.Deferred();
-    //         arr[num] = deferred;
-    //         deferred.time = setTimeout(function () {
-    //             console.log(1);
-    //             deferred.resolve(num);
-    //         }, 2000);
-    //         deferred.fail(function (data) {
-    //             console.log(data);
-    //         });
-    //         loading = deferred;
-    //         return deferred;
-    //     } else {
-    //         return arr[num];
-    //     }
-    //
-    // }
-    //
-    // one.onclick = function () {
-    //     get(1).then(function (num) {
-    //         data.innerHTML = num;
-    //     });
-    // };
-    //
-    // two.onclick = function () {
-    //     get(2).then(function (num) {
-    //         data.innerHTML = num;
-    //     });
-    // };
-
-
-    var loading;
-
-    one.onclick = function () {
-        clearTimeout(this.time);
-        if(one.flag === undefined || one.flag){
-            one.flag = false;
-            var defer = $.ajax({
-                type: "get",
-                url: "network/getNews.php"
-            });
-            var defer2 = $.ajax({
-                type: "get",
-                url: "network/getNews.php"
-            });
-            if (loading && loading.state() === "pending") loading.abort();
-            loading = when(defer, defer2);
-            loading.then(function (data, data1) {
-                console.log(data, data1);
-            });
-        }
-        this.time = setTimeout(function () {
-             one.flag = true;
-        }, 500)
-    };
-
-
-    function when() {
-        var when = $.when.apply(null, arguments);
-        (function (arr) {
-            when.abort = function () {
-                [].forEach.call(arr, function (value) {
-                    value.abort();
-                    console.log(value.state());
-                })
-            };
-        })(arguments);
-
-        return when;
-    }
-
-    for (var i = 0; i < 50; i++) {
-        one.onclick();
-    }
 
 
 </script>
